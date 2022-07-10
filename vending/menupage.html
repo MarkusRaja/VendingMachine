@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <link href="style3.css" rel="stylesheet" type="text/css" />
+      
+    </head>
+    <body onload="checkingidpass();greet();">
+      
+        <h1 id="font">Vending Machine</h1>
+        <h2 id="greetings"></h2>
+        <h2 id="accid"></h2>
+        <h2 id="balance"></h2><br><br><br>
+        <p>List of Product:<br>
+        1. Coca Cola 250ml: Rp 4000<br>
+        2. Sprite 250ml: Rp 6000</p>
+        <form>
+            <label id="font3">Type which product you want in number</label><br>
+            <input type="text" id="motorid"><br>
+            <input type="button" onclick="buy()" value="Buy Now">
+        </form>
+        <div id="checkaja"></div>
+        <div id="yourSlist"></div>
+      	
+        
+        <div id="blockanythingside" class="modal">
+            <div class="modal-content animate" method="post">
+            <h1>Please Register and Login your self first</h1>
+            <input type="submit" onclick="regpage()" value="REGISTER">
+            </div>
+        </div>
+        <script src="script3.js" type="text/javascript"></script>
+    </body>
+    
+</html>
